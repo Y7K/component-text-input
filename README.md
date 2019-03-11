@@ -10,14 +10,14 @@ It is based on [Vue 2](https://vuejs.org), [MaintainableCSS](https://maintainabl
 ![Component](img-component.png)
 
 
-## Installation
+## Installation
 
 ##### Install npm package
 ```bash
 npm install @y7k/component-text-input --save
 ```
 
-##### Include in your project
+##### Include in your project
 ```js
 import textInput from '@y7k/component-text-input';
 ```
