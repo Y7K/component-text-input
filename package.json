@@ -1,0 +1,37 @@
+{
+    "name": "@y7k/component-text-input",
+    "version": "1.0.0",
+    "description": "A Vue text input UI component",
+    "main": "src/js/main.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "lint": "eslint --ext .js,.vue src/js/main.js",
+        "lintfix": "eslint --fix --ext .js,.vue src/js/main.js",
+        "stylelint": "stylelint src/scss"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Y7K/component-text-input.git"
+    },
+    "author": "Robert Krieg",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/Y7K/component-text-input/issues"
+    },
+    "homepage": "https://github.com/Y7K/component-text-input#readme",
+    "dependencies": {
+        "lodash": "^4.0.0"
+    },
+    "peerDependencies": {
+        "vue": "^2.0.0"
+    },
+    "devDependencies": {
+        "babel-eslint": "^8.2.3",
+        "eslint-config-airbnb-base": "^12.1.0",
+        "eslint-plugin-html": "^4.0.3",
+        "eslint-plugin-import": "^2.11.0",
+        "eslint": "^4.19.1",
+        "stylelint-config-sass-guidelines": "^5.0.0",
+        "stylelint": "^9.2.1"
+    }
+}

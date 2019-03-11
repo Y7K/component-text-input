@@ -1,0 +1,22 @@
+// TODO: simplify
+
+$color-input-border: black !default;
+$color-input-border-hover: grey !default;
+
+.textInput {
+    position: relative;
+    display: flex;
+}
+
+.textInput-inputField {
+    @include resp(padding, (phone: 10px, tablet: 22px));
+    @include resp(height, (phone: 42px, tablet: 65px));
+    border: 1px solid $color-input-border;
+    flex-grow: 1;
+}
+
+.textInput-inputField:hover {
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border-color: $color-input-border-hover;
+}
