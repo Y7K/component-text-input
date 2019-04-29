@@ -3,7 +3,7 @@ import Vue from 'vue';
 import _TextInput from './components/TextInput';
 
 export default {
-    registerGlobally() {
+    registerGlobally: function() {
         Vue.component('text-input', _TextInput);
     },
 };
